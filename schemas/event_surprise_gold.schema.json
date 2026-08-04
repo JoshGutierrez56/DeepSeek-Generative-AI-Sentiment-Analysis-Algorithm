@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "event_surprise_gold.schema.json",
+  "title": "Event Surprise Human Gold Label",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "benchmark_id",
+    "review_status",
+    "issuer",
+    "event_family",
+    "direction",
+    "reference_type",
+    "surprise_available",
+    "materiality",
+    "certainty",
+    "evidence_spans",
+    "reviewer_type"
+  ],
+  "properties": {
+    "benchmark_id": { "type": "string", "pattern": "^ES2-[0-9a-f]{16}$" },
+    "review_status": {
+      "enum": ["PENDING_HUMAN_REVIEW", "HUMAN_REVIEW_COMPLETE", "NEEDS_ADJUDICATION"]
+    },
+    "reviewer_type": { "enum": ["HUMAN", "AI_REVIEW_ONLY"] },
+    "issuer": { "type": ["string", "null"] },
+    "event_family": { "type": "string" },
+    "direction": { "enum": ["POSITIVE", "NEGATIVE", "NONE", "UNCLEAR"] },
+    "reference_type": {
+      "enum": [
+        "ANALYST_CONSENSUS",
+        "COMPANY_GUIDANCE",
+        "PRIOR_PERIOD",
+        "PRIOR_DISCLOSURE",
+        "MARKET_IMPLIED",
+        "CONTRACTUAL_THRESHOLD",
+        "MANAGEMENT_TARGET",
+        "ARTICLE_STATED",
+        "NONE",
+        "UNCLEAR"
+      ]
+    },
+    "surprise_available": { "type": "boolean" },
+    "materiality": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "certainty": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "numeric_actual": { "type": ["number", "null"] },
+    "numeric_reference": { "type": ["number", "null"] },
+    "unit": { "type": ["string", "null"] },
+    "evidence_spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["start", "end", "role"],
+        "properties": {
+          "start": { "type": "integer", "minimum": 0 },
+          "end": { "type": "integer", "minimum": 1 },
+          "role": { "enum": ["FACT", "REFERENCE", "TIMING", "UNCERTAINTY"] }
+        }
+      }
+    },
+    "ambiguity_reason": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] }
+  }
+}
