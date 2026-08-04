@@ -1,0 +1,10 @@
+{
+  "schema_version": "event_surprise_v2.checkpoint.v1",
+  "updated_at_utc": "2026-08-04T23:45:00Z",
+  "cycle": 1,
+  "classification": "CYCLE_1_EVENT_SURPRISE_BASELINE_READY",
+  "implementation_commit": null,
+  "checkpoint_commit": null,
+  "next_cycle": 2,
+  "critical_hold": null
+}

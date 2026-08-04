@@ -1,0 +1,40 @@
+{
+  "schema_version": "event_surprise_v2.recovery_receipt.v1",
+  "created_at_utc": "2026-08-04T23:45:00Z",
+  "code_commit": "0d6be1666811b853d954cf004b760f9595381f67",
+  "repository": "JoshGutierrez56/sentiment-lab-financial-news-research",
+  "visibility": "PUBLIC",
+  "recovered_event_branch": "agent/event-surprise-redesign",
+  "recovered_event_commit": "cc1c180be802d917e707bd90d3f9fac46ed0ff72",
+  "new_branch": "feat/event-surprise-empirical-v2",
+  "integrity": {
+    "git_diff_check": "PASS",
+    "git_fsck": "PASS_WITH_UNREACHABLE_BLOBS",
+    "worktree": "CLEAN_AT_BRANCH_CREATION"
+  },
+  "source_hashes": {
+    "articles": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
+    "prices": "4f030c49deea3dd536dcb4d06f3b41d8447492ebfae2370d3646bb615ce79615",
+    "canonical_classifications": "a1bd6afa5d015b17c16412c1116342cb2203f64f1a4d14d102d8d9bae7180df7",
+    "qwen_final": "f696fd2795993ff6c2a64baee7dc314e8287e85d0b0dd79ee45e41bd98121391",
+    "signals": "9388d59a609fcbef9e5b9cb91bfdfcdccd5fffa71ad424c9b76f9ebfd47efdf5"
+  },
+  "model": {
+    "tag": "qwen3.6:35b-a3b",
+    "ollama_id": "07d35212591f",
+    "blob_sha256": "f5ee307a2982106a6eb82b62b2c00b575c9072145a759ae4660378acda8dcf2d",
+    "loaded": false
+  },
+  "corpus": {
+    "articles": 5000,
+    "issuers": 125,
+    "existing_story_clusters": 5000,
+    "minimum_timestamp": "2022-01-03T11:21:51Z",
+    "maximum_timestamp": "2026-03-31T23:43:00Z",
+    "qwen_valid_rows": 5000,
+    "qwen_invalid_rows": 0
+  },
+  "inference_restart_required": false,
+  "paid_calls": 0,
+  "deployment_changed": false
+}

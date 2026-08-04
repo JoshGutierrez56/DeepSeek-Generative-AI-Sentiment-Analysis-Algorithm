@@ -1,0 +1,11 @@
+{
+  "schema_version": "event_surprise_v2.run_manifest.v1",
+  "created_at_utc": "2026-08-04T23:45:00Z",
+  "base_commit": "0d6be1666811b853d954cf004b760f9595381f67",
+  "branch": "feat/event-surprise-empirical-v2",
+  "study_mode": "EXTRACTION_CONFIRMATORY_PREDICTION_REQUIRES_NEW_LOCKED_PANEL",
+  "historical_result_policy": "PRESERVE_ALL_NEGATIVE_AND_NULL_RESULTS",
+  "private_data_committed": false,
+  "paid_api_authorized": false,
+  "deployment_authorized": false
+}

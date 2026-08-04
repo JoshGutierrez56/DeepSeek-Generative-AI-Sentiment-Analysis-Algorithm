@@ -1,0 +1,9 @@
+{
+  "schema_version": "event_surprise_v2.worker_heartbeat.v1",
+  "updated_at_utc": "2026-08-04T23:45:00Z",
+  "cycle": 1,
+  "state": "VALIDATING_BASELINE",
+  "inference_worker": null,
+  "paid_calls": 0,
+  "gpu_model_loaded": false
+}
