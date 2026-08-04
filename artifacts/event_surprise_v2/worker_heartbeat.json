@@ -1,8 +1,12 @@
 {
   "schema_version": "event_surprise_v2.worker_heartbeat.v1",
-  "updated_at_utc": "2026-08-04T23:45:00Z",
+  "created_at_utc": "2026-08-04T23:45:00Z",
+  "updated_at_utc": "2026-08-04T23:58:00Z",
+  "code_commit": "a0e88ce3c1ec945c83df6d3718f0fd48418d9e3d",
+  "config_sha256": "fab6511fb039e00688a87ebe6688b22f658ecf5f0f1c4fdb2cd196e8350f2d88",
+  "source_sha256": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
   "cycle": 1,
-  "state": "VALIDATING_BASELINE",
+  "state": "CYCLE_1_COMPLETE",
   "inference_worker": null,
   "paid_calls": 0,
   "gpu_model_loaded": false
