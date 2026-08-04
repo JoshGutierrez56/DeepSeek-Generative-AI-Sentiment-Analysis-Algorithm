@@ -1,2 +1,4 @@
 2026-08-04T23:45:00Z cycle=1 event=recovery_complete status=PASS inference_started=false paid_calls=0
 2026-08-04T23:58:00Z cycle=1 event=full_regression status=PASS tests=113 coverage=85.27 inference_started=false paid_calls=0
+2026-08-05T00:08:00Z cycle=2 event=gold_packet_ready status=PASS records=400 human_gold=PENDING_HUMAN_REVIEW private_committed=false
+2026-08-05T00:08:00Z cycle=2 event=full_regression status=PASS tests=115 coverage=85.38 paid_calls=0
