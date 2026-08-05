@@ -1,0 +1,50 @@
+{
+  "abstentions": 1476,
+  "code_commit": "2685e95bd66f8b2f28670def0b7f583bf2584827",
+  "concise_evidence_rows": 4984,
+  "confidence": {
+    "maximum": 1.0,
+    "median": 0.85,
+    "minimum": 0.0
+  },
+  "config_sha256": "291b7353931a5ae010d5aa675428dffdb008a24729c7696a31bd70bb5e395031",
+  "corpus_schema": "event_surprise.v1",
+  "corpus_sha256": "f696fd2795993ff6c2a64baee7dc314e8287e85d0b0dd79ee45e41bd98121391",
+  "created_at_utc": "2026-08-05T00:04:08.652958+00:00",
+  "event_family_counts": {
+    "analyst_revision": 687,
+    "buyback": 16,
+    "capital_allocation": 249,
+    "cybersecurity": 12,
+    "dividend": 259,
+    "earnings": 222,
+    "financing": 93,
+    "fraud_accounting": 1,
+    "guidance": 185,
+    "litigation_outcome": 178,
+    "management_change": 264,
+    "merger_acquisition": 313,
+    "operational_disruption": 224,
+    "other": 1713,
+    "product_approval_or_launch": 372,
+    "regulatory_decision": 157,
+    "restructuring": 55
+  },
+  "human_gold_status": "PENDING_HUMAN_REVIEW",
+  "inference_restarted": false,
+  "materiality": {
+    "maximum": 1.0,
+    "median": 0.4,
+    "minimum": 0.0
+  },
+  "network_model_calls": 0,
+  "parse_failures": 0,
+  "rows": 5000,
+  "schema_version": "event_surprise_v2.frozen_corpus_manifest.v1",
+  "source_sha256": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
+  "surprise_available_rows": 3524,
+  "unique_article_hashes": 5000,
+  "unique_article_ids": 5000,
+  "v2_evidence_offset_status": "NOT_AVAILABLE",
+  "valid_json_rows": 5000
+}
