@@ -6,3 +6,5 @@
 2026-08-05T00:22:00Z cycle=3 event=full_regression status=PASS tests=119 coverage=85.61 paid_calls=0
 2026-08-05T00:28:00Z cycle=4 event=frozen_corpus_audit status=PASS records=5000 parse_failures=0 v2_offsets=NOT_AVAILABLE inference_started=false
 2026-08-05T00:28:00Z cycle=4 event=full_regression status=PASS tests=121 coverage=85.62 paid_calls=0
+2026-08-05T00:45:00Z cycle=5 event=event_feature_panel status=PASS rows=5000 clusters=5000 issuers=125 outcome_columns=0 private_committed=false
+2026-08-05T00:45:00Z cycle=5 event=full_regression status=PASS tests=123 coverage=85.68 paid_calls=0

@@ -1,0 +1,25 @@
+{
+  "clustering_uses_market_outcomes": false,
+  "code_commit": "645a77aa631b0404521c5ca5f6eab203b1d64b2c",
+  "config_sha256": "4f8fa5583c5ace671e085d08a487f5cf4890434ec6007a3cf2f168a7b1152387",
+  "created_at_utc": "2026-08-05T00:10:04.904741+00:00",
+  "event_families": 17,
+  "feature_selection_uses_market_outcomes": false,
+  "mean_evidence_completeness": 0.9968,
+  "multi_article_clusters": 0,
+  "multi_source_clusters": 0,
+  "outcome_columns": [],
+  "private_panel_committed": false,
+  "private_panel_sha256": "91d00502c8d473adfba4c54fcbdede971262a10e7c856a226c09391856823ecf",
+  "residual_novelty_method": "issuer expanding prior mean; first observation null",
+  "rows": 5000,
+  "schema_version": "event_surprise_v2.event_feature_manifest.v1",
+  "source_hashes": {
+    "articles": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
+    "classifiers": "2891a16f362aa98535bb1ad64020d716d299a7574593fd46af544d1e0c7882cf",
+    "extractions": "f696fd2795993ff6c2a64baee7dc314e8287e85d0b0dd79ee45e41bd98121391"
+  },
+  "surprise_available": 3524,
+  "unique_event_clusters": 5000,
+  "unique_issuers": 125
+}

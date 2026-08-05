@@ -1,0 +1,33 @@
+{
+  "schema_version": "event_surprise_v2.cycle_validation.v1",
+  "created_at_utc": "2026-08-05T00:45:00Z",
+  "code_commit": "645a77aa631b0404521c5ca5f6eab203b1d64b2c",
+  "config_sha256": "4f8fa5583c5ace671e085d08a487f5cf4890434ec6007a3cf2f168a7b1152387",
+  "source_sha256": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
+  "cycle": 5,
+  "classification": "CYCLE_5_EVENT_FEATURE_PANEL_READY",
+  "feature_panel": {
+    "rows": 5000,
+    "clusters": 5000,
+    "issuers": 125,
+    "event_families": 17,
+    "surprise_available": 3524,
+    "outcome_columns": 0,
+    "private_panel_committed": false
+  },
+  "validation": {
+    "ruff_format": "PASS",
+    "ruff_lint": "PASS",
+    "mypy_modules": 60,
+    "mypy": "PASS",
+    "tests_passed": 123,
+    "tests_failed": 0,
+    "coverage_percent": 85.68,
+    "package_build": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "market_outcomes_read": false,
+  "network_model_calls": 0,
+  "paid_calls": 0,
+  "deployment_changed": false
+}
