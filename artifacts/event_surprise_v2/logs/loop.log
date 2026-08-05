@@ -8,3 +8,5 @@
 2026-08-05T00:28:00Z cycle=4 event=full_regression status=PASS tests=121 coverage=85.62 paid_calls=0
 2026-08-05T00:45:00Z cycle=5 event=event_feature_panel status=PASS rows=5000 clusters=5000 issuers=125 outcome_columns=0 private_committed=false
 2026-08-05T00:45:00Z cycle=5 event=full_regression status=PASS tests=123 coverage=85.68 paid_calls=0
+2026-08-05T01:00:00Z cycle=6 event=predictive_lock status=REFUSED_NOT_FROZEN classification=HOLD_TEST_UNLOCK historical_outcomes_accessed=true future_panel_rows=0
+2026-08-05T01:00:00Z cycle=6 event=loop_stop status=HOLD_TEST_UNLOCK secondary=HOLD_OUTCOME_DATA paid_calls=0 deployment_changed=false

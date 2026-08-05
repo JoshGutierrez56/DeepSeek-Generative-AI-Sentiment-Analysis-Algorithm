@@ -1,20 +1,25 @@
 {
   "schema_version": "event_surprise_v2.checkpoint.v1",
   "created_at_utc": "2026-08-04T23:45:00Z",
-  "updated_at_utc": "2026-08-05T00:45:00Z",
-  "code_commit": "645a77aa631b0404521c5ca5f6eab203b1d64b2c",
+  "updated_at_utc": "2026-08-05T01:00:00Z",
+  "code_commit": "d40879acef56a9af535d59fa4c91edefd37c3ebe",
   "config_sha256": "90f99b81b620f4826473686d166848773a7f0848c679b5f5cc84f64881cf0943",
   "source_sha256": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
-  "cycle": 5,
-  "classification": "CYCLE_5_EVENT_FEATURE_PANEL_READY",
-  "implementation_commit": "645a77aa631b0404521c5ca5f6eab203b1d64b2c",
+  "cycle": 6,
+  "classification": "HOLD_TEST_UNLOCK",
+  "implementation_commit": "d40879acef56a9af535d59fa4c91edefd37c3ebe",
   "checkpoint_commit": null,
-  "next_cycle": 6,
-  "critical_hold": null,
+  "next_cycle": null,
+  "critical_hold": {
+    "primary": "HOLD_TEST_UNLOCK",
+    "secondary": "HOLD_OUTCOME_DATA",
+    "reason": "Historical outcomes were already inspected and no lawful later panel is frozen."
+  },
   "extraction_lock": "FROZEN",
   "human_gold_status": "PENDING_HUMAN_REVIEW",
   "frozen_corpus_rows": 5000,
   "v2_evidence_offsets": "NOT_AVAILABLE",
   "event_clusters": 5000,
-  "outcome_columns_in_feature_panel": 0
+  "outcome_columns_in_feature_panel": 0,
+  "predictive_lock": "REFUSED_NOT_FROZEN"
 }
