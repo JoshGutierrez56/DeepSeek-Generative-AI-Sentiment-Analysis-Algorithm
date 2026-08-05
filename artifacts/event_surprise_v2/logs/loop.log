@@ -4,3 +4,5 @@
 2026-08-05T00:08:00Z cycle=2 event=full_regression status=PASS tests=115 coverage=85.38 paid_calls=0
 2026-08-05T00:22:00Z cycle=3 event=extraction_lock status=FROZEN human_gold=PENDING_HUMAN_REVIEW model_calls=0
 2026-08-05T00:22:00Z cycle=3 event=full_regression status=PASS tests=119 coverage=85.61 paid_calls=0
+2026-08-05T00:28:00Z cycle=4 event=frozen_corpus_audit status=PASS records=5000 parse_failures=0 v2_offsets=NOT_AVAILABLE inference_started=false
+2026-08-05T00:28:00Z cycle=4 event=full_regression status=PASS tests=121 coverage=85.62 paid_calls=0

@@ -1,0 +1,35 @@
+{
+  "schema_version": "event_surprise_v2.cycle_validation.v1",
+  "created_at_utc": "2026-08-05T00:28:00Z",
+  "code_commit": "6c9c105cba4f5108d053d914a13149815d9ca604",
+  "config_sha256": "90f99b81b620f4826473686d166848773a7f0848c679b5f5cc84f64881cf0943",
+  "source_sha256": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
+  "cycle": 4,
+  "classification": "CYCLE_4_FROZEN_EVENT_CORPUS_READY",
+  "frozen_corpus": {
+    "records": 5000,
+    "parse_failures": 0,
+    "abstentions": 1476,
+    "surprise_available": 3524,
+    "surprise_available_percent": 70.48,
+    "concise_evidence_nonempty": 4984,
+    "concise_evidence_percent": 99.68,
+    "event_families": 17,
+    "sha256": "f696fd2795993ff6c2a64baee7dc314e8287e85d0b0dd79ee45e41bd98121391",
+    "v2_evidence_offsets": "NOT_AVAILABLE"
+  },
+  "validation": {
+    "ruff_format": "PASS",
+    "ruff_lint": "PASS",
+    "mypy_modules": 59,
+    "mypy": "PASS",
+    "tests_passed": 121,
+    "tests_failed": 0,
+    "coverage_percent": 85.62,
+    "git_diff_check": "PASS"
+  },
+  "inference_restarted": false,
+  "network_model_calls": 0,
+  "paid_calls": 0,
+  "deployment_changed": false
+}
