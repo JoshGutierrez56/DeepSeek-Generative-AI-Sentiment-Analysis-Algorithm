@@ -1,0 +1,43 @@
+{
+  "schema_version": "event_surprise_v2.model_benchmark.v1",
+  "created_at_utc": "2026-08-05T00:15:00Z",
+  "code_commit": "c2f4b717b961f0475562d1699e0c4db95ea91bff",
+  "config_sha256": "90f99b81b620f4826473686d166848773a7f0848c679b5f5cc84f64881cf0943",
+  "source_sha256": "8ada422fcdefa894c55ae51400e073f97fa6d8e26272cde98d8926ce27b68385",
+  "human_gold_status": "PENDING_HUMAN_REVIEW",
+  "models": {
+    "rules": {
+      "version": "deterministic_explicit_comparison_rules.v1",
+      "human_metrics": null
+    },
+    "finbert": {
+      "revision": "4556d13015211d73dccd3fdd39d39232506f3e43",
+      "historical_runtime_seconds_100": 0.71,
+      "historical_memory_gb": 0.73,
+      "structured_human_metrics": "NOT_APPLICABLE"
+    },
+    "financial_roberta": {
+      "revision": "f8804d31111d7c3569e88abaad6969918e858fbd",
+      "historical_runtime_seconds_100": 0.92,
+      "historical_memory_gb": 1.8,
+      "structured_human_metrics": "NOT_APPLICABLE"
+    },
+    "qwen": {
+      "tag": "qwen3.6:35b-a3b",
+      "blob_sha256": "f5ee307a2982106a6eb82b62b2c00b575c9072145a759ae4660378acda8dcf2d",
+      "think": false,
+      "temperature": 0,
+      "seed": 20260719,
+      "historical_runtime_seconds_100": 1264,
+      "completed_rows": 5000,
+      "valid_rows": 5000,
+      "human_metrics": null
+    },
+    "ensemble": {
+      "version": "schema_offset_guarded_abstention.v1",
+      "human_metrics": null
+    }
+  },
+  "network_model_calls": 0,
+  "paid_calls": 0
+}

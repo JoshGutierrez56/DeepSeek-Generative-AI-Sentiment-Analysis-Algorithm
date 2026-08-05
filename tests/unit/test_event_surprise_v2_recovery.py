@@ -36,9 +36,10 @@ def test_cycle_one_artifacts_are_public_safe_and_lineaged() -> None:
         assert not any(token in text for token in forbidden)
 
 
-def test_cycle_one_checkpoint_advances_only_to_cycle_two() -> None:
+def test_cycle_one_receipt_is_immutable_as_checkpoint_advances() -> None:
+    receipt = load("cycle_01_validation_receipt.json")
     checkpoint = load("checkpoint.json")
-    assert checkpoint["cycle"] == 1
-    assert checkpoint["next_cycle"] == 2
-    assert checkpoint["classification"] == "CYCLE_1_EVENT_SURPRISE_BASELINE_READY"
+    assert receipt["cycle"] == 1
+    assert receipt["classification"] == "CYCLE_1_EVENT_SURPRISE_BASELINE_READY"
+    assert checkpoint["cycle"] >= 1
     assert checkpoint["critical_hold"] is None
