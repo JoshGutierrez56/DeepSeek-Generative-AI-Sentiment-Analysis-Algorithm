@@ -8,3 +8,4 @@
 - R-006 `MEDIUM`: a public branch can leak local paths or licensed excerpts. Mitigation: automated public-boundary tests before every push.
 - R-007 `MEDIUM`: GPU inference can duplicate expensive work. Mitigation: no inference until cache and blob checks pass; one worker; atomic checkpoints.
 - R-008 `LOW`: existing unreachable Git blobs may confuse recovery. Mitigation: record them; they are not object corruption and require no destructive cleanup.
+- R-009 `CRITICAL`: new post-2026-03-31 data is not authorized or frozen. Mitigation: stop at Cycle 6; obtain explicit source, rights, and cost authorization before Lock B.

@@ -19,3 +19,7 @@ The GitHub repository is already public. Every pushed artifact must therefore be
 ## D-005 — Negative results remain canonical
 
 Generic sentiment and v1 event surprise were not promoted. Those results stay visible regardless of V2 outcomes.
+
+## D-006 — Refuse a retrospective Lock B
+
+The historical outcomes were already accessed before the V2 protocol. Do not rename or repartition them into a nominal confirmatory holdout. Stop at `HOLD_TEST_UNLOCK` until a lawful, genuinely later panel is frozen before outcome access.

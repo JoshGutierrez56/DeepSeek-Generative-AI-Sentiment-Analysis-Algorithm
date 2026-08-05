@@ -1,0 +1,16 @@
+{
+  "schema_version": "event_surprise_v2.predictive_lock_receipt.v1",
+  "created_at_utc": "2026-08-05T00:55:00Z",
+  "lock": "B",
+  "status": "REFUSED_NOT_FROZEN",
+  "classification": "HOLD_TEST_UNLOCK",
+  "reasons": [
+    "Historical 2022-2026 outcomes were accessed before the V2 predictive lock.",
+    "No genuinely later point-in-time corpus has been acquired.",
+    "Rights and cost authorization for new provider and outcome data are unresolved."
+  ],
+  "historical_outcomes_relocked": false,
+  "test_outcomes_loaded_in_v2": false,
+  "paid_calls": 0,
+  "next_permitted_action": "Authorize and freeze a lawful post-2026-03-31 panel before outcome access."
+}

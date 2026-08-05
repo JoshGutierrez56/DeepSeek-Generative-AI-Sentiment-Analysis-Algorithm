@@ -1,0 +1,26 @@
+{
+  "schema_version": "event_surprise_v2.outcome_panel_audit.v1",
+  "created_at_utc": "2026-08-05T00:55:00Z",
+  "historical_panel": {
+    "article_rows": 5000,
+    "price_rows": 142875,
+    "provider_timestamp_min_utc": "2022-01-03T11:21:51Z",
+    "provider_timestamp_max_utc": "2026-03-31T23:43:00Z",
+    "entry_date_max": "2026-04-01",
+    "exit_21_session_date_max": "2026-04-30",
+    "outcomes_previously_accessed": true,
+    "confirmatory_reuse_permitted": false
+  },
+  "future_panel": {
+    "article_rows": 0,
+    "outcome_rows": 0,
+    "source_authorized": false,
+    "rights_verified": false,
+    "timestamps_verified": false,
+    "identifiers_verified": false
+  },
+  "classification": "HOLD_TEST_UNLOCK",
+  "secondary_blocker": "HOLD_OUTCOME_DATA",
+  "paid_calls": 0,
+  "deployment_changed": false
+}
